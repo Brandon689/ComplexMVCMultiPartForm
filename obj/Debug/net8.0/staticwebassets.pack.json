@@ -1,0 +1,317 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\2024\\15\\ComplexFormOriginal\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ComplexForm.bundle.scp.css",
+      "PackagePath": "staticwebassets\\ComplexForm.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\2024\\15\\ComplexFormOriginal\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\2024\\15\\ComplexFormOriginal\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\2024\\15\\ComplexFormOriginal\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\2024\\15\\ComplexFormOriginal\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\2024\\15\\ComplexFormOriginal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\2024\\15\\ComplexFormOriginal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\2024\\15\\ComplexFormOriginal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\2024\\15\\ComplexFormOriginal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\2024\\15\\ComplexFormOriginal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\2024\\15\\ComplexFormOriginal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\2024\\15\\ComplexFormOriginal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\2024\\15\\ComplexFormOriginal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\2024\\15\\ComplexFormOriginal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\2024\\15\\ComplexFormOriginal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\2024\\15\\ComplexFormOriginal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\2024\\15\\ComplexFormOriginal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\2024\\15\\ComplexFormOriginal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\2024\\15\\ComplexFormOriginal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\2024\\15\\ComplexFormOriginal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\2024\\15\\ComplexFormOriginal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\2024\\15\\ComplexFormOriginal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\2024\\15\\ComplexFormOriginal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\2024\\15\\ComplexFormOriginal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\2024\\15\\ComplexFormOriginal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\2024\\15\\ComplexFormOriginal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\2024\\15\\ComplexFormOriginal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\2024\\15\\ComplexFormOriginal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\2024\\15\\ComplexFormOriginal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\2024\\15\\ComplexFormOriginal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\2024\\15\\ComplexFormOriginal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\2024\\15\\ComplexFormOriginal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\2024\\15\\ComplexFormOriginal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\2024\\15\\ComplexFormOriginal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\2024\\15\\ComplexFormOriginal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\2024\\15\\ComplexFormOriginal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\2024\\15\\ComplexFormOriginal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\2024\\15\\ComplexFormOriginal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\2024\\15\\ComplexFormOriginal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\2024\\15\\ComplexFormOriginal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\2024\\15\\ComplexFormOriginal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\2024\\15\\ComplexFormOriginal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\2024\\15\\ComplexFormOriginal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\2024\\15\\ComplexFormOriginal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\2024\\15\\ComplexFormOriginal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\2024\\15\\ComplexFormOriginal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\2024\\15\\ComplexFormOriginal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\2024\\15\\ComplexFormOriginal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\2024\\15\\ComplexFormOriginal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\2024\\15\\ComplexFormOriginal\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\2024\\15\\ComplexFormOriginal\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\2024\\15\\ComplexFormOriginal\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\2024\\15\\ComplexFormOriginal\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\2024\\15\\ComplexFormOriginal\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\2024\\15\\ComplexFormOriginal\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\2024\\15\\ComplexFormOriginal\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\2024\\15\\ComplexFormOriginal\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\2024\\15\\ComplexFormOriginal\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\2024\\15\\ComplexFormOriginal\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\2024\\15\\ComplexFormOriginal\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\2024\\15\\ComplexFormOriginal\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\2024\\15\\ComplexFormOriginal\\wwwroot\\uploads\\13c4a58d-d4a3-45ea-ba46-a779bb16adc5_cool.png",
+      "PackagePath": "staticwebassets\\uploads\\13c4a58d-d4a3-45ea-ba46-a779bb16adc5_cool.png"
+    },
+    {
+      "Id": "C:\\2024\\15\\ComplexFormOriginal\\wwwroot\\uploads\\1ba867ab-ce4f-40d6-bc95-5e0b6710dac7_download-free-studio-ghibli-wallpapers-miyazaki-anime-43-576146985e007__880.jpg",
+      "PackagePath": "staticwebassets\\uploads\\1ba867ab-ce4f-40d6-bc95-5e0b6710dac7_download-free-studio-ghibli-wallpapers-miyazaki-anime-43-576146985e007__880.jpg"
+    },
+    {
+      "Id": "C:\\2024\\15\\ComplexFormOriginal\\wwwroot\\uploads\\2b11a828-f781-464e-9129-9d71ea3e36d9_sss.png",
+      "PackagePath": "staticwebassets\\uploads\\2b11a828-f781-464e-9129-9d71ea3e36d9_sss.png"
+    },
+    {
+      "Id": "C:\\2024\\15\\ComplexFormOriginal\\wwwroot\\uploads\\328c42d4-ee10-42ec-8b76-ed29fd2f59af_download-free-studio-ghibli-wallpapers-miyazaki-anime-43-576146985e007__880.jpg",
+      "PackagePath": "staticwebassets\\uploads\\328c42d4-ee10-42ec-8b76-ed29fd2f59af_download-free-studio-ghibli-wallpapers-miyazaki-anime-43-576146985e007__880.jpg"
+    },
+    {
+      "Id": "C:\\2024\\15\\ComplexFormOriginal\\wwwroot\\uploads\\5a52218c-07d9-41b3-ae63-4cd9b84bcd42_cool.png",
+      "PackagePath": "staticwebassets\\uploads\\5a52218c-07d9-41b3-ae63-4cd9b84bcd42_cool.png"
+    },
+    {
+      "Id": "C:\\2024\\15\\ComplexFormOriginal\\wwwroot\\uploads\\5d539245-d003-43bc-9c7e-40d8adeada10_2134790-c2d64.jpg",
+      "PackagePath": "staticwebassets\\uploads\\5d539245-d003-43bc-9c7e-40d8adeada10_2134790-c2d64.jpg"
+    },
+    {
+      "Id": "C:\\2024\\15\\ComplexFormOriginal\\wwwroot\\uploads\\88536180-bfc3-41ad-86d6-7a2c859dcd96_cool.png",
+      "PackagePath": "staticwebassets\\uploads\\88536180-bfc3-41ad-86d6-7a2c859dcd96_cool.png"
+    },
+    {
+      "Id": "C:\\2024\\15\\ComplexFormOriginal\\wwwroot\\uploads\\88e63750-fa8c-4b45-b29f-ee3be9340614_gak.png",
+      "PackagePath": "staticwebassets\\uploads\\88e63750-fa8c-4b45-b29f-ee3be9340614_gak.png"
+    },
+    {
+      "Id": "C:\\2024\\15\\ComplexFormOriginal\\wwwroot\\uploads\\9d5fc7c7-583a-46e9-9b0e-d73ab27b33c2_2134790-c2d64.jpg",
+      "PackagePath": "staticwebassets\\uploads\\9d5fc7c7-583a-46e9-9b0e-d73ab27b33c2_2134790-c2d64.jpg"
+    },
+    {
+      "Id": "C:\\2024\\15\\ComplexFormOriginal\\wwwroot\\uploads\\a70cd672-6794-4c41-a198-61e26b277101_gak.png",
+      "PackagePath": "staticwebassets\\uploads\\a70cd672-6794-4c41-a198-61e26b277101_gak.png"
+    },
+    {
+      "Id": "C:\\2024\\15\\ComplexFormOriginal\\wwwroot\\uploads\\c7b4ba11-f29f-4222-b391-8f1b532db719_sss.png",
+      "PackagePath": "staticwebassets\\uploads\\c7b4ba11-f29f-4222-b391-8f1b532db719_sss.png"
+    },
+    {
+      "Id": "C:\\2024\\15\\ComplexFormOriginal\\wwwroot\\uploads\\da9ec34c-9638-4559-b3fa-158a10c86f09_cool.png",
+      "PackagePath": "staticwebassets\\uploads\\da9ec34c-9638-4559-b3fa-158a10c86f09_cool.png"
+    },
+    {
+      "Id": "C:\\2024\\15\\ComplexFormOriginal\\wwwroot\\uploads\\e61af0fd-3c3f-4b5c-bd51-e8011f33aff4_gak.png",
+      "PackagePath": "staticwebassets\\uploads\\e61af0fd-3c3f-4b5c-bd51-e8011f33aff4_gak.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ComplexForm.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.ComplexForm.props",
+      "PackagePath": "build\\ComplexForm.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.ComplexForm.props",
+      "PackagePath": "buildMultiTargeting\\ComplexForm.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.ComplexForm.props",
+      "PackagePath": "buildTransitive\\ComplexForm.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

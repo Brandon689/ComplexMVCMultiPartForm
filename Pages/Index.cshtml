@@ -1,0 +1,216 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Complex form";
+}
+<div class="container mt-3">
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        Launch demo modal
+    </button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Woo-hoo, you're reading this text in a modal!
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="search-form">
+        <input class="form-control mb-2" autocomplete="off" placeholder="Name, Original name, Entry #" autofocus="autofocus" id="searchKeywords" name="keywords" value="" type="text">
+        <div class="form-check mb-2">
+            <input class="form-check-input" value="1" name="keywordsStrict" id="cb-keywordsStrict" type="checkbox">
+            <label class="form-check-label" for="cb-keywordsStrict">Strict</label>
+        </div>
+        <button id="searchButton" class="btn btn-primary">Search</button>
+    </div>
+    <div id="searchResults" class="mt-3"></div>
+    <form id="pickedItemsForm" class="mt-3" enctype="multipart/form-data">
+        <div class="form-group">
+            <label for="jesseInput">Title</label>
+            <input type="text" class="form-control" name="jesse" id="jesseInput">
+        </div>
+
+        <div class="form-group">
+            <label for="jamesInput">Version</label>
+            <input type="text" class="form-control" name="james" id="jamesInput">
+        </div>
+        <div class="form-group">
+            <label>Gender:</label>  
+            <div class="radio-form">
+                <div class="radio">
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label>
+                </div>
+
+                <div class="radio">
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label>
+                </div>
+
+                <div class="radio">
+                    <input type="radio" id="other" name="gender" value="other">
+                    <label for="other">Other</label>
+                </div>
+            </div>
+        </div>
+        <table class="table" id="pickedItemsTable">
+            <thead>
+                <tr>
+                    <th scope="col">Item Name</th>
+                    <th scope="col">Actions</th>
+                </tr>
+            </thead>
+            <tbody id="pickedItemsList">
+            </tbody>
+        </table>
+
+        <input type="file" name="image" id="imageInput">
+        <input type="hidden" id="pickedItemsInput" name="pickedItems">
+        <button type="submit" class="btn btn-success">Submit Form</button>
+    </form>
+</div>
+<div id="imagePreview"></div>
+
+@section Scripts {
+    <script>
+        let searches = [];
+        function addItemsToHiddenInput(items) {
+            const hiddenInput = document.getElementById("pickedItemsInput");
+            let currentValue = hiddenInput.value;
+            let newValue = currentValue ? currentValue + ',' + items : items;
+            hiddenInput.value = newValue;
+        }
+
+        $("#searchButton").click(function (e) {
+            e.preventDefault();
+
+            var keywords = $("#searchKeywords").val();
+            var isStrict = $("#cb-keywordsStrict").is(":checked");
+
+            $.ajax({
+                url: '/api/form/search', 
+                type: 'POST',
+                data: {
+                    keywords: keywords,
+                    strict: isStrict
+                },
+                success: function (data) {
+                    $("#searchResults").empty();
+                    console.log(data);
+                    searches = data;
+                    if (data.length > 0) {
+                        var resultsHtml = '<div class="list-group">';
+                        data.forEach(function (item) {
+                            resultsHtml += '<a href="#" class="list-group-item list-group-item-action"><img src="' + item.image + '"/>' + item.name +
+                                ' <button class="pick-btn btn btn-primary btn-sm float-right" data-id="' + item.id + '" data-name="' + item.name + '">Pick</button></a>';
+                        });
+                        resultsHtml += '</div>';
+                        $("#searchResults").html(resultsHtml);
+                    } else {
+                        $("#searchResults").html('<div class="alert alert-warning">No results found</div>');
+                    }
+                },
+                error: function (xhr, status, error) {
+                    $("#searchResults").html('<div class="alert alert-danger">Error occurred</div>');
+                }
+            });
+        });
+
+        var selectedItems = {};
+        selectedItems.companies = [];
+
+        $(document).on('click', '.pick-btn', function (e) {
+            e.preventDefault();
+            var itemId = $(this).data('id');
+            var itemName = $(this).data('name');
+            console.log(searches)
+            var i = searches.find(obj => obj.id === itemId);
+            selectedItems.companies.push({ id: itemId, name: itemName, image: i.image });
+
+            updatePickedItemsList();
+        });
+
+        $(document).on('click', '.remove-btn', function () {
+            var itemId = $(this).closest('tr').data('id');
+
+            selectedItems.companies = selectedItems.companies.filter(item => item.id !== itemId);
+
+            updatePickedItemsList();
+        });
+
+
+        function updatePickedItemsList() {
+            var pickedItemsList = $('#pickedItemsList');
+            pickedItemsList.empty();
+
+            selectedItems.companies.forEach(function (item) {
+                pickedItemsList.append('<tr data-id="' + item.id + '"><td><img src="' + item.image + '"/></td><td>' + item.name + '</td>' +
+                    '<td><button class="remove-btn btn btn-danger btn-sm">Remove</button></td></tr>');
+            });
+        }
+
+        $('#pickedItemsForm').on('submit', function (e) {
+            e.preventDefault();
+            
+            selectedItems.companies.forEach((n, i) => {
+                addItemsToHiddenInput(n.id);
+            })
+            var formData = new FormData(this);
+
+            // formData.append('additionalField', 'additionalValue');
+
+            $.ajax({
+                url: '/api/form/submit',
+                type: 'POST',
+                contentType: false,
+                processData: false,
+                data: formData,
+                success: function (response) {
+                    console.log('Submission successful', response);
+                },
+                error: function (xhr, status, error) {
+                    console.error('Submission failed', error);
+                }
+            });
+
+            const hiddenInput = document.getElementById("pickedItemsInput");
+            hiddenInput.value = "";
+        });
+
+        // Function to handle file input change event
+        document.getElementById("imageInput").addEventListener("change", function (event) {
+            var file = event.target.files[0];
+            var imageType = /^image\//;
+
+            if (imageType.test(file.type)) {
+                var reader = new FileReader();
+
+                reader.onload = function (e) {
+                    var img = document.createElement("img");
+                    img.src = e.target.result; // Set the image source to the base64 data URI
+                    img.width = 200;
+                    document.getElementById("imagePreview").innerHTML = "";
+                    document.getElementById("imagePreview").appendChild(img);
+                };
+
+                reader.readAsDataURL(file); // Read the selected file as a data URL
+            } else {
+                alert("Please select an image file.");
+            }
+        });
+    </script>
+}
+
